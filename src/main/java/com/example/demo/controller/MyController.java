@@ -14,7 +14,7 @@ public class MyController {
 
     @RequestMapping(value = "/sayHello", method = RequestMethod.GET)
     public String sayHello() {
-        model.setName("hello, world");
+        model.setMessage("hello, world");
         return model.toString();
     }
 }
